@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Quote Generator </title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Mono&family=Righteous&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+        
+    <body>
+        <div class="quote_container" id="quote_container">
+            <!-- QUOTE -->
+            <div class="quote_text">
+                <i class="fa-solid fa-quote-left"></i>
+                <span id="quote"></span>
+            </div>
+        
+            <!-- AUTHOR -->
+            <div class="quote_author">
+                <span id="author"></span>
+            </div>
+        
+            <!-- BUTTONS -->
+            <div class="button_container">
+                <button class="twitter-button" id="twitter" title="Tweet This!">
+                    <i class="fab fa-twitter"></i>
+                </button>
+                <button id="new_quote">REFRESH</button>
+            </div>
+        </div>
+        
+        <!-- LOADER -->
+        <div class="loader" id="loader"></div>
+        
+        <!-- SCRIPT -->
+        <!-- <script src="customquotes.js"></script> *USE THIS FOR CUSTOM QUOTES*-->
+        <script src="script.js"></script>
+    </body>
+</html>
